@@ -40,8 +40,8 @@ $ ln -s libzbar.0.dylib libzbar.dylib
 
 mac m1 conda环境使用zbar识别二维码的要点记录 <br />
 
-> anaconda的环境只支持X86_64架构的软件
-> brew安装的zbar是ARM64架构的C库
+> anaconda的环境只支持X86_64架构的软件 <br />
+> brew安装的zbar是ARM64架构的C库 <br />
 
 conda-forge的方案请参考：
 
