@@ -9,7 +9,8 @@ here are the comfortable way: <br />
 The anaconda environment only supports X86_64 architecture software <br />
 The zbar installed by brew is a C library of the ARM64 architecture <br />
 
-firstly, install conda-forge: <br />
+firstly, install conda-forge: https://github.com/fantasy-wang/M1_zbar/blob/main/m1%E5%AE%89%E8%A3%85arm64conda.md
+
 secondly, install zbar using brew: <br />
 ```shell
 arch -arm64 brew install zbar
@@ -43,7 +44,7 @@ mac m1 conda环境使用zbar识别二维码的要点记录 <br />
 > anaconda的环境只支持X86_64架构的软件 <br />
 > brew安装的zbar是ARM64架构的C库 <br />
 
-conda-forge的方案请参考：
+conda-forge的方案请参考：https://github.com/fantasy-wang/M1_zbar/blob/main/m1%E5%AE%89%E8%A3%85arm64conda.md
 
 
 安装zbar
