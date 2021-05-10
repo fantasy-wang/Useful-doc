@@ -33,3 +33,43 @@ $ cp /opt/homebrew/Cellar/zbar/0.23.90/lib/libzbar.0.dylib ~/miniforge3/lib/
 $ cd ~/miniforge3/lib/
 $ ln -s libzbar.0.dylib libzbar.dylib
 ```
+
+
+
+mac m1 conda环境使用zbar识别二维码的要点记录 <br />
+
+> anaconda的环境只支持X86_64架构的软件
+> brew安装的zbar是ARM64架构的C库
+
+conda-forge的方案请参考：
+
+
+安装zbar
+```shell
+$ brew install zbar #在arm64架构的机器用这个命令会抛出异常
+$ arch -arm64 brew install zbar #这个才是正确姿势
+```
+
+
+安装路径大概是这个：
+
+```shell
+/opt/homebrew/Cellar/zbar/0.23.90 #记住路径，后面要用到
+```
+
+安装pyzbar
+#依据miniforge3 的环境
+```shell
+$ conda search pyzbar #官方依据拒绝使用pip search了
+$ conda install pyzbar #没有搜索到资源的话 pip install pyzbar
+```
+
+miniforeg3环境使用zbar库
+```shell
+$ cp /opt/homebrew/Cellar/zbar/0.23.90/lib/pkgconfig/zbar.pc ~/miniforge3/lib/pkgconfig
+$ cp /opt/homebrew/Cellar/zbar/0.23.90/lib/libzbar.0.dylib ~/miniforge3/lib/
+$ cd ~/miniforge3/lib/
+$ ln -s libzbar.0.dylib libzbar.dylib
+```
+
+本文参考：https://www.gushiciku.cn/dl/0pAlv
