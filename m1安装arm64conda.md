@@ -27,3 +27,5 @@ $ export PATH=/Users/YOURNAME/miniforge3/bin:$PATH
 #### 3.更换pycharm的interpreter
 ![avatar](/first.png)
 ![avatar](/second.png)
+
+本文参考：https://www.toutiao.com/i6950101327934423590/?group_id=6950101327934423590
