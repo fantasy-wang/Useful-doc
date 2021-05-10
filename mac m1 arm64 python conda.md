@@ -6,8 +6,8 @@ conda针对osx arm64用的是miniforge, conda-forge <br />
 https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh
 ```
 
-###下面是安装流程和使用流程
-####1. 安装miniforge3
+### 下面是安装流程和使用流程
+#### 1. 安装miniforge3
 ```
 $ chmod +x ./Miniforge3-MacOSX-arm64.sh
 $ ./Miniforge3-MacOSX-arm64.sh
@@ -17,13 +17,13 @@ $ #更换channels 清华，默认的我删掉了
 $ conda config --set channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
 ```
 
-####2.设置环境变量
+#### 2.设置环境变量
 ```
 $ vim .zshrc
 $ #注释掉 原来的anaconda的bin，增加miniforge的环境变量
 $ export PATH=/Users/YOURNAME/miniforge3/bin:$PATH
 ```
 
-####3.更换pycharm的interpreter
+#### 3.更换pycharm的interpreter
 ![avatar](/first.png)
 ![avatar](/second.png)
