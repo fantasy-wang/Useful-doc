@@ -1,14 +1,14 @@
 # M1_zbar
-apple M1 use python zbar
-For those who use apple with M1
-If you want to install zbar pacage with conda, the normal way may not useful.
-here are the comfortable way:
+apple M1 use python zbar <br />
+For those who use apple with M1 <br />
+If you want to install zbar pacage with conda, the normal way may not useful. <br />
+here are the comfortable way: <br />
 
-The anaconda environment only supports X86_64 architecture software
-The zbar installed by brew is a C library of the ARM64 architecture
+The anaconda environment only supports X86_64 architecture software <br />
+The zbar installed by brew is a C library of the ARM64 architecture <br />
 
-firstly, install conda-forge: 
-secondly, install zbar using brew:
+firstly, install conda-forge: <br />
+secondly, install zbar using brew: <br />
 ```shell
 arch -arm64 brew install zbar
 ```
