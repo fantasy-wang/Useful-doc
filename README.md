@@ -1,5 +1,7 @@
 # M1_zbar
+
 apple M1 use python zbar <br />
+<br/>
 For those who use apple with M1 <br />
 If you want to install zbar pacage with conda, the normal way may not useful. <br />
 here are the comfortable way: <br />
@@ -34,7 +36,7 @@ $ cd ~/miniforge3/lib/
 $ ln -s libzbar.0.dylib libzbar.dylib
 ```
 
-<br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
 
 mac m1 conda环境使用zbar识别二维码的要点记录 <br />
 
