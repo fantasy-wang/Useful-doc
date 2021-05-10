@@ -34,7 +34,7 @@ $ cd ~/miniforge3/lib/
 $ ln -s libzbar.0.dylib libzbar.dylib
 ```
 
-
+<br /><br /><br /><br /><br />
 
 mac m1 conda环境使用zbar识别二维码的要点记录 <br />
 
